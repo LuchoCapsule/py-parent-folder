@@ -1,0 +1,2 @@
+# Overview
+This project enables us to maintain a backend project for testing purposes within a parent directory. The goal is to deploy it as a subdirectory, rather than deploying the entire parent folder.
