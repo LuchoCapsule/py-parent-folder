@@ -1,0 +1,17 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Frontend</title>
+</head>
+<body>
+    <h1>Welcome to the Flask Frontend - Lucho Jamin!</h1>
+    <p>This is a simple front-end served by Flask.</p>
+    <h2>Users:</h2>
+    <ul id="user-list"></ul>
+    <script src="{{ url_for('static', filename='js/config.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

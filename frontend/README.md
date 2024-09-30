@@ -1,0 +1,2 @@
+# Overview
+This project enables us to maintain a front project for testing purposes within a parent directory made with flask framework. The goal is to deploy it as a subdirectory, rather than deploying the entire parent folder.
